@@ -1,0 +1,56 @@
+
+
+<!--Gayan-->
+
+/* The subnavigation menu */
+.subnav {
+  float: inherit;
+  overflow: hidden;
+  text-decoration:none;
+}
+
+
+.subnavbtn {
+  
+  border: none;
+  outline: none; 
+  background-color: inherit;
+  color: white;
+  padding-left: 1px;
+  font-size: 19px;
+   
+  
+}
+
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: inherit;
+  background-color:#535353;
+  width: 100px;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: inherit;
+  color: white;
+  
+}
+
+/* Add a  background color on hover */
+.subnav-content a:hover { 
+  color: black;
+}
+
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+#cmb
+{  
+    padding: 10px;
+    border: none;
+}

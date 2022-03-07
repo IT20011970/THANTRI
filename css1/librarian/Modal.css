@@ -1,0 +1,54 @@
+body >*:not(#container )
+{
+	filter:blur(3px);
+	
+}
+#sidebar
+{
+	filter:blur(3px);
+}
+#content>*:not(#myModal)
+{
+	filter:blur(3px);
+}
+#myModal
+{
+	
+	filter:blur(0px);
+	width:600px;
+	border:#000;
+	border-radius:20px;
+	margin-left:20%;
+	margin-top:-15%;
+	margin-bottom:10%;
+	margin-right:10%;
+	height:530px;
+	float:inherit;
+	z-index:5000;
+	position:absolute;
+	background-color:#FFF;
+	box-shadow:1px 1px 50px 2px #000000;	
+}
+.modal-body
+{
+	border-bottom: 2px dotted #000;
+	border-top: 2px dotted #000;
+	padding-left:20px;
+}
+#myModalLabel
+{
+	float:inherit;	
+	font-size:24px;
+	padding-right:10px;
+}
+.btnWhite
+{
+	float:left;	
+	margin-left:20px;
+}
+.modal-footer
+{
+	margin-top:15px;
+	margin-bottom:20px;
+	float:left;
+}

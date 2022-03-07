@@ -1,0 +1,29 @@
+/*table {*/
+/*    border: 1px solid #b9b9b9;*/
+/*    width: 100%;*/
+/*}*/
+/*tr:hover {*/
+/*    background-color: #f4f4f4;*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*tr:nth-child(1) {*/
+/*    !*background-color: #dadada;*!*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*table, tr, td,th {*/
+/*    border: 1px solid #b9b9b9;*/
+/*    border-collapse: collapse;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*tr:nth-child(1) td {*/
+/*    text-align: center;*/
+/*}*/
+
+/*tr td:nth-child(1) {*/
+/*    width: 10%;*/
+/*    text-align: center;*/
+/*}*/

@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/Group 145.jpg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    background-color: transparent;
+    margin: 0px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btnLBlue {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Bahnschrift Light', serif;
+    text-align: center;
+
+}
+
+.btnLBlue:hover {
+    background-color: rgb(121, 16, 16);
+    color: white;
+}
+
+#header {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+#header div > div > img {
+    height: 35px;
+    width: 35px;
+    margin-left: 6px;
+}
+
+#content {
+    width: 100%;
+}
+
+#footer {
+    color: white;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+#btnLogin {
+    float: left;
+    margin-top: 35px;
+}
